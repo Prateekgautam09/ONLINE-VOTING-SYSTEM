@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Voting System</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to Online Voting System</h1>
+    <p>Make your voice count by voting for your favorite candidate!</p>
+    <button onclick="startVoting()">Start Voting</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vote for Your Candidate</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Vote for Your Candidate</h1>
+    <div class="candidate-list">
+        <div class="candidate">
+            <input type="radio" id="candidate1" name="candidate" value="1">
+            <label for="candidate1">Candidate 1</label>
+        </div>
+        <div class="candidate">
+            <input type="radio" id="candidate2" name="candidate" value="2">
+            <label for="candidate2">Candidate 2</label>
+        </div>
+        <div class="candidate">
+            <input type="radio" id="candidate3" name="candidate" value="3">
+            <label for="candidate3">Candidate 3</label>
+        </div>
+    </div>
+    <button onclick="submitVote()">Vote</button>
+    <div id="message"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You for Voting</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Thank You for Voting</h1>
+    <p>Your vote has been successfully recorded.</p>
+    <button onclick="returnToWelcome()">Return to Welcome Page</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
